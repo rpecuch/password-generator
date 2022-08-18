@@ -26,7 +26,7 @@ The user will then be taken through a series of prompts to establish criteria fo
 
 The generated password will then be displayed.
 
-![window displaying generated password](./assets/images/generated-password.png)
+![box displaying generated password](./assets/images/generated-password.png)
 
 To run the password generator again, simply click the "Generate Password" button again.
 
