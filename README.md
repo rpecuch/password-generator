@@ -2,18 +2,33 @@
 
 ## Description
 
-The purpose of this project was to learn how to apply JavaScript fundamentals to a web application.
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The purpose of this project was to learn how to apply JavaScript fundamentals to a web application. This application generates a password suggestion based on user-selected criteria, which can be more secure than a user-selected password. While building this project I learned about the practical use of variables, operators, objects, functions, methods, if statements, and for loops. Going through the process of debugging my code was a great learning experience in itself.
 
 ## Usage
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+To access this application, visit the following URL: [https://rpecuch.github.io/password-generator/](https://rpecuch.github.io/password-generator/). To start the password generator, click the "Generate Password" button.
 
-![alt text](assets/images/screenshot.png)
+![home page](./assets/images/home-page.png)
+
+The user will first be prompted to select the length of the password.
+
+![window asking for password length](./assets/images/select-length.png)
+
+The user will then be taken through a series of prompts to establish criteria for the password.
+
+![window asking to include lowercase letters](./assets/images/lower-include.png)
+
+![window asking to include uppercase letters](./assets/images/upper-include.png)
+
+![window asking to include numbers](./assets/images/number-include.png)
+
+![window asking to include special characters](./assets/images/special-include.png)
+
+The generated password will then be displayed.
+
+![window displaying generated password](./assets/images/generated-password.png)
+
+To run the password generator again, simply click the "Generate Password" button again.
 
 ## Credits
 
