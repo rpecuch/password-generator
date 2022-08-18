@@ -58,15 +58,18 @@ function generatePassword() {
 
     // now actually generate the password
 
-    var emptyString = "";
-    var getRandomChar = availableChar[Math.random() * availableChar.length];
-    var randomChar = getRandomChar;
+    // var emptyString = "";
+    var randomChar = availableChar[Math.floor(Math.random() * availableChar.length)];
+    console.log(randomChar);
 
-    while(emptyString.length > 6) {
-      emptyString += randomChar;
-      emptyString ++;
-    }
-    console.log(emptyString);
+    alert("This is your password: " + randomChar + randomChar);
+
+    // for(var i=0;i<length;i++) {
+    //   emptyString + randomChar;
+    //   console.log(randomChar);
+    // }
+
+    // console.log(emptyString);
 
 
   }
@@ -87,7 +90,6 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
